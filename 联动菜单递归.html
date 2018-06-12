@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    var data = {
+      body: [{
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1004,
+        "code": "draggable-list",
+        "name": "可拖拽列表",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 3,
+        "path": "draggable-list",
+        "component": null,
+        "icon": "arrow-move",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1005,
+        "code": "area-linkage",
+        "name": "城市级联",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 4,
+        "path": "area-linkage",
+        "component": null,
+        "icon": "ios-more",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1006,
+        "code": "file-upload",
+        "name": "文件上传",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 5,
+        "path": "file-upload",
+        "component": null,
+        "icon": "android-upload",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1000,
+        "code": "iview-examples",
+        "name": "iView控件示例",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 0,
+        "path": "/examples",
+        "component": null,
+        "icon": "social-buffer",
+        "parentId": 0
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1001,
+        "code": "text-editor",
+        "name": "富文本编辑器",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 0,
+        "path": "text-editor",
+        "component": null,
+        "icon": "compose",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1002,
+        "code": "md-editor",
+        "name": "Markdown编辑器",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 1,
+        "path": "md-editor",
+        "component": null,
+        "icon": "pound",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1003,
+        "code": "image-editor",
+        "name": "图片预览编辑",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 2,
+        "path": "image-editor",
+        "component": null,
+        "icon": "crop",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1007,
+        "code": "arrow-graph-up-right",
+        "name": "数字渐变",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 6,
+        "path": "arrow-graph-up-right",
+        "component": null,
+        "icon": "arrow-graph-up-right",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1008,
+        "code": "split-pane-page",
+        "name": "split-pane",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 7,
+        "path": "split-pane-page",
+        "component": null,
+        "icon": "ios-pause",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1009,
+        "code": "artical-publish",
+        "name": "文章发布",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 8,
+        "path": "artical-publish",
+        "component": null,
+        "icon": "compose",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1010,
+        "code": "workflow",
+        "name": "工作流",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 9,
+        "path": "workflow",
+        "component": null,
+        "icon": "arrow-swap",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1011,
+        "code": "dragable-table",
+        "name": "表格可拖拽排序",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 10,
+        "path": "dragableTable",
+        "component": null,
+        "icon": "arrow-move",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1012,
+        "code": "editable-table",
+        "name": "可编辑表格",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 11,
+        "path": "editableTable",
+        "component": null,
+        "icon": "edit",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1013,
+        "code": "searchable-table",
+        "name": "可搜索表格",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 12,
+        "path": "searchableTable",
+        "component": null,
+        "icon": "search",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1014,
+        "code": "exportable-table",
+        "name": "表格导出数据",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 13,
+        "path": "exportableTable",
+        "component": null,
+        "icon": "code-download",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1015,
+        "code": "table-to-image",
+        "name": "表格转图片",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 14,
+        "path": "table2image",
+        "component": null,
+        "icon": "images",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1016,
+        "code": "mutative-router",
+        "name": "动态路由",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 15,
+        "path": "mutative-router",
+        "component": null,
+        "icon": "link",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1017,
+        "code": "argument-page",
+        "name": "",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 16,
+        "path": "argument-page",
+        "component": null,
+        "icon": "android-send",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1019,
+        "code": "systemManager",
+        "name": "系统管理",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 0,
+        "path": "/system",
+        "component": null,
+        "icon": "gear-b",
+        "parentId": 1000
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1020,
+        "code": "userManager",
+        "name": "用户管理",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 0,
+        "path": "userManager",
+        "component": null,
+        "icon": "person-stalker",
+        "parentId": 1019
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1021,
+        "code": "roleManager",
+        "name": "角色管理",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 1,
+        "path": "roleManager",
+        "component": null,
+        "icon": "social-buffer",
+        "parentId": 1019
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1022,
+        "code": "resourceManager",
+        "name": "资源管理",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 2,
+        "path": "resourceManager",
+        "component": null,
+        "icon": "navicon-round",
+        "parentId": 1019
+      },
+      {
+        "createAt": null,
+        "createDate": null,
+        "modifyAt": null,
+        "modifyDate": null,
+        "id": 1023,
+        "code": "sectionManager",
+        "name": "部门管理",
+        "type": "MENU",
+        "url": null,
+        "method": "NONE",
+        "priority": 3,
+        "path": "sectionManager",
+        "component": null,
+        "icon": "network",
+        "parentId": 1019
+      }]
+    }
+
+    var data2 = {
+      body: [
+        { id: 1, parentId: 0 },
+        { id: 2, parentId: 0 },
+        { id: 3, parentId: 0 },
+        { id: 221, parentId: 1 },
+        { id: 222, parentId: 1 },
+        { id: 223, parentId: 1 },
+        { id: 331, parentId: 221 },
+        { id: 332, parentId: 221 },
+        { id: 333, parentId: 222 },
+        { id: 441, parentId: 331 },
+        { id: 442, parentId: 333 },
+        { id: 443, parentId: 332 },
+        { id: 551, parentId: 2 },
+        { id: 552, parentId: 441 },
+      ]
+    }
+    function recursion(dataGroup, wrap, isFirst = false) {
+      if (isFirst) {
+        dataGroup.forEach(item => {
+          if (item.parentId === 0) {
+            wrap.push({
+              parent: item,
+              childrenItem: []
+            })
+          }
+        })
+        return recursion(dataGroup, wrap)
+      } else {
+        wrap.forEach(parentItem => {
+          dataGroup.forEach(item => {
+            if (parentItem.parent.id === item.parentId) {
+              parentItem.childrenItem.push({
+                parent: item,
+                childrenItem: []
+              })
+            }
+          })
+          if(parentItem.childrenItem.length !== 0){
+            recursion(dataGroup, parentItem.childrenItem)
+          }
+        })
+        return wrap
+      }
+    }
+    console.log(recursion(data2.body, [], true));
+  </script>
+</body>
+
+</html>
